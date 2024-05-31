@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get 'contact'=> 'pages#contact_page'
   get 'dashboard'=> 'pages#dashboard_page'
   get 'cart'=> 'pages#cart_page'
+  get 'product' => 'pages#product_page'
 
 end
